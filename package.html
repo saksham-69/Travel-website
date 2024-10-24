@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Packages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        header, footer {
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .packages {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .package {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        button, .home-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none; +
+            display: inline-block; 
+        }
+
+        button:hover, .home-button:hover {
+            background-color: #45a049;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>International Tour Packages</h1>
+        <a href="index.html" class="home-button">Home</a> <!-- Home button -->
+    </header>
+
+    <main>
+        <section class="packages">
+            <h2>Our Packages</h2>
+
+            <div class="package">
+                <h3>European Adventure</h3>
+                <p><strong>Duration:</strong> 10 Days</p>
+                <p><strong>Benefits:</strong> Guided tours, accommodation, meals included</p>
+                <p><strong>Price:</strong> RS.2872500</p>
+                <button>Book Now</button>
+            </div>
+
+            <div class="package">
+                <h3>Asian Discovery</h3>
+                <p><strong>Duration:</strong> 12 Days</p>
+                <p><strong>Benefits:</strong> All-inclusive package, cultural experiences</p>
+                <p><strong>Price:</strong> RS.3000000</p>
+                <button>Book Now</button>
+            </div>
+
+            <div class="package">
+                <h3>American Road Trip</h3>
+                <p><strong>Duration:</strong> 15 Days</p>
+                <p><strong>Benefits:</strong> Car rental, hotel stays, sightseeing</p>
+                <p><strong>Price:</strong> RS.500000</p>
+                <button>Book Now</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
